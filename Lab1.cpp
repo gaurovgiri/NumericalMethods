@@ -66,7 +66,7 @@ int main()
     {
         x_mid = (x1 + x2) / 2;
 
-        if (f(x_mid) * f(x1) < 0)
+        if (!isBracketing(x_mid,x2))
         {
             x2 = x_mid;
         }
