@@ -11,7 +11,7 @@
 
         5. Calculate mid-point  xₘ = (x1 + x2)/2 and find f(xₘ)
 
-        6. if |x2-x1| <= E; go to step 8
+        6. if |x2-x1| < E; go to step 8
 
         7. if f(xₘ) * f(x1) < 0
             set x2 = xm
