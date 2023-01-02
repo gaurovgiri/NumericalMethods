@@ -15,7 +15,7 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        cout << "Equation " << i + 1 << endl;
+        cout << "Equation " << i << endl;
         cout << "x: ";
         cin >> A[i][1];
         cout << "y: ";
