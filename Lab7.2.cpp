@@ -1,3 +1,4 @@
+// Simpson's 3/8 Rule
 #include <iostream>
 #include <cmath>
 

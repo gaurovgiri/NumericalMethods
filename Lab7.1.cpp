@@ -1,3 +1,4 @@
+// Simpson's 1/3 Rule
 #include <iostream>
 
 #define f(x) (x * x * x + 1)
