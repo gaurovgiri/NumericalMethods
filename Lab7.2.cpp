@@ -36,7 +36,7 @@ int main()
         }
     }
 
-    I_cs = ceil((3 * h / 8) * (f(a) + sum_1 + sum_2 + f(b)));
+    I_cs = (3 * h / 8) * (f(a) + sum_1 + sum_2 + f(b));
     
     cout << "Result: " << I_cs << endl;
 }
