@@ -39,10 +39,10 @@ using namespace std;
 
 bool isBracketing(float x1, float x2)
 {
-    if (f(x1) * f(x2) > 0)
-        return false;
-    else
+    if (f(x1) * f(x2) < 0)
         return true;
+    else
+        return false;
 }
 
 int main()
